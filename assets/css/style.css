@@ -37,7 +37,7 @@ h5 {
     color: white;
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif; 
     font-weight: bold;
-    top: 70%;
+    top: 60%;
     position: absolute;
     text-align: center;
     padding: 10px 0px 10px 0px;
@@ -45,6 +45,16 @@ h5 {
 
 p {
     color: #777777;
+}
+
+button {
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 8px 50px;
+    margin: 20px 0px;
+    font-size: 12pt;
 }
 
 /* --- Section Properties --- */
@@ -58,32 +68,6 @@ p {
     color: #777777;
     margin-bottom: 100px;
 }
-
-/* input {
-    padding: 10px;
-    width: 97.5%; 
-    font-size: 11pt;
-}
-
-textarea {
-    padding: 10px;
-    margin: 0 auto;
-    vertical-align: top;
-    height: 150px;
-    border-color: #cecdcd;
-    width: 97.5%; 
-    font-size: 11pt;
-}
-
-button {
-    background: #4aaaa5;
-    text-align: center;
-    color: white;
-    border: none;
-    padding: 8px 25px;
-    margin: 20px 0px;
-    font-size: 12pt;
-} */
 
 .header {
     border-bottom: solid 2px;
@@ -119,6 +103,10 @@ button {
     padding: 30px 30px 30px 0px;
 }
 
+.portfolioImage {
+    padding-bottom: 30px;
+}
+
 @media screen and (max-width: 768px) {
     .profilePic {
         padding: 30px 0px 30px 0px;
@@ -126,6 +114,8 @@ button {
     
 }
 
-.portfolioImage {
-    padding-bottom: 30px;
+@media screen and (max-width: 992px) {
+    .navbarLine {
+        display: none;
+    }
 }
