@@ -107,7 +107,16 @@ button {
     padding-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
+/* Media Queries only used on profile picture due to text wrapping properties */
+
+@media screen and (max-width: 640px) {
+    .profilePic {
+        padding: 30px 0px 30px 0px;
+    }
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
     .profilePic {
         padding: 30px 0px 30px 0px;
     }
