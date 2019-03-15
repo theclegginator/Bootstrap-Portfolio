@@ -104,7 +104,7 @@ button {
 }
 
 .portfolioImage {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 /* Media Queries only used on profile picture due to text wrapping properties */
