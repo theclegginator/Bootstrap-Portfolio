@@ -16,7 +16,7 @@ body {
 }
 
 h3 {
-    color: #4aaaa5;
+    color: #3682fd;
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -24,7 +24,7 @@ h3 {
 }
 
 h4 {
-    background-color: #4aaaa5;
+    background-color: #3682fd;
     color: white;
     text-align: center;
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif; 
@@ -33,7 +33,7 @@ h4 {
 }
 
 h5 {
-    background-color: #4aaaa5;
+    background-color: #3682fd;
     color: white;
     font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif; 
     font-weight: bold;
@@ -48,7 +48,7 @@ p {
 }
 
 button {
-    background: #4aaaa5;
+    background: #3682fd;
     text-align: center;
     color: white;
     border: none;
@@ -67,17 +67,19 @@ button {
     font-size: large;
     color: #777777;
     margin-bottom: 100px;
+    box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.55);
 }
 
 .header {
     border-bottom: solid 2px;
     border-color: #bababa;
     margin-bottom: 30px;
+    box-shadow: 0px 6px 22px 0px rgba(0, 0, 0, 0.39);
 }
 
 .footer {
     border-top: solid 5px;
-    border-color: #4aaaa5;
+    border-color: #3682fd;
     text-align: center;
     font-size: small;
 }
@@ -87,7 +89,7 @@ button {
     margin: 0px;
     height: 88px;
     width: 250px;
-    background-color: #4aaaa5;
+    background-color: #3682fd;
 }
 
 .navbar {
